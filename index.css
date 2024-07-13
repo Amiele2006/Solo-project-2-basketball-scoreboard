@@ -1,0 +1,81 @@
+.main-wrapper{
+    background-color:rgba(27, 36, 74, 1);
+    width:500px;
+    height:350px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 34%;
+    margin-top: 10%;
+}
+
+.home-side{
+    text-align: center;
+}
+
+#home{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;
+    color:white;
+}
+
+.away-side{
+    text-align: center;
+}
+
+#away{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;
+    color:white;
+}
+
+#blank-space{
+    width:155px;
+    height:120px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    margin-left: 20px;
+}
+
+#text{
+    color: rgba(249, 79, 109, 1);
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 126.67px;
+    margin-top: 50px;
+}
+
+#text-2{
+    color: rgba(249, 79, 109, 1);
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 126.67px;
+    margin-top: 50px;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(3,40px);
+    height:40px;
+    padding-top: 20px;
+    justify-content: center;
+    gap:15px;
+}
+
+.grids{
+    font-family: 'Cursed Timer ULiL',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37.81px;
+    text-align: center;
+    color:rgba(154, 171, 216, 1);
+    border:3px solid rgba(154, 171, 216, 1);
+    border-radius: 5px;
+}
